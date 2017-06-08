@@ -1,0 +1,73 @@
+body {
+    background-color: #1D1C2A;
+}
+
+
+
+table {
+    background-color: #424153;
+    border-radius: 5px;
+}
+
+.tableMain {
+    background-color: #BD071D;
+}
+
+td {
+    background-color: #424153;
+    color: #C3C2C8;
+    border: 1px solid #A90C21;
+    border-radius: 5px;
+}
+
+.num {
+    width: 50px;
+    text-align: center;
+}
+.name {
+    width: 300px;
+}
+.state {
+    width: 100px;
+    text-align: center;
+}
+.state_0 {
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.inputText {
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    border: 1px solid #424153;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: #424153;
+}
+
+.inputBtn {
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #BD071D;
+    border: 1px solid #BD071D;
+    color: white;
+    font-size: 25px;
+    outline: none;
+}
+.inputBtn:hover {
+    background: none;
+    color: #BD071D;
+    border: 1px solid #BD071D;
+}
