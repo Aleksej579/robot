@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
 </head>
 <body>
    
@@ -198,6 +199,6 @@ if (!file_exists($resultfile)) {
            </td>
        </tr>
    </table>
-   <script src="main.js"></script>
+   <script src="../js/main.js"></script>
 </body>
 </html>
