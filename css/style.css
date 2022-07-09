@@ -1,8 +1,20 @@
-body {
-    background-color: #1D1C2A;
+html,
+body,
+.form-wrapper {
+    height: 100%;
 }
 
+body {
+    background-color: #1D1C2A;
+    text-align: center;
+    color: #C3C2C8;
+}
 
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
 
 table {
     background-color: #424153;
@@ -24,13 +36,16 @@ td {
     width: 50px;
     text-align: center;
 }
+
 .name {
     width: 300px;
 }
+
 .state {
     width: 100px;
     text-align: center;
 }
+
 .state_0 {
     width: 300px;
 }
@@ -40,7 +55,13 @@ td {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
+    margin-top: 15%;
+}
+
+@media (max-width: 425px) {
+    .form {
+        flex-direction: column;
+    }
 }
 
 .inputText {
@@ -66,8 +87,15 @@ td {
     font-size: 25px;
     outline: none;
 }
+
 .inputBtn:hover {
     background: none;
     color: #BD071D;
     border: 1px solid #BD071D;
+}
+
+@media (max-width: 425px) {
+    .inputBtn {
+        margin-top: 20px;
+    }
 }
